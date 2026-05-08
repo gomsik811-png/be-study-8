@@ -26,13 +26,16 @@ public class Valiable06 {
 		
 		System.out.println(str1);
 		System.out.println(str2);
-		System.out.println(str1 == str2);
+		System.out.println(str1 == str2); //false
 		
 		// 문자열(String) 값 비교할때는 == 으로 인식안됨. -> equals() 기능 사용
 
 		//문자열.equals(문자열)
-		System.out.println(str1.equals(str2));
-		System.out.println(str2.equals(str1));
+		System.out.println(str1.equals(str2)); //똑같은 값 입력시 true
+		System.out.println(str2.equals(str1)); //똑같은 값 입력시 true
+		
+		System.out.println(str1 == "커피");
+		System.out.println(str1.equals("커피"));
 
 
 
