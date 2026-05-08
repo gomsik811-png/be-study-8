@@ -36,7 +36,8 @@ public class Valiable06 {
 		
 		System.out.println(str1 == "커피");
 		System.out.println(str1.equals("커피"));
-
+		
+		
 
 
 	}

@@ -170,6 +170,8 @@ public class Operator01 {
 		System.out.println( num > 0 ? "양수" : (num < 0 ? "음수" : "0") );
 		System.out.println( num >= 0 ? (num == 0 ? "0" : "양수") : "음수");
 		
+		int menuPrice = 30000;
+		String result9 = menuPrice <= 6000 ? "훌륭" : menuPrice <= 8000 ? "선방" : menuPrice <= 12000 ? "눈물" : "물로배채우기";
 	}
 
 }
