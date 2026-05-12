@@ -52,16 +52,58 @@ public class Iter02 {
 		
 		
 		i = 10;
-		while(true) {
+		while(true) {					
+			System.out.println("while(true) :" + i );
 			i++;
 			
 			if(i == 21)
 				break;
+		}
+		
+		i = 30;
+		do {
+			System.out.println("조건 상관없이 일단 먼저 한번 실행 do while");
 			
-			System.out.println("while(true) :" + i );
+		}while(i<10);
+		
+		while(i<10) {
+			System.out.println("그냥 while문");
+		}
+		
+		
+		System.out.println("--------------------");
+		
+		for(i=1; 1<=10; i++) {
+			
+			if(i==5)
+				continue; //이번 턴은 패스하고 다음진행으로 넘어가라
+			
+			System.out.println(i); // 1 2 3 4 ...
+			
+			if (i==8)
+				break; //그만 멈추고 나가라
+		}
+		
+		System.out.println("--------------------------");
+		
+		i=1;
+		while(i<=10) {
+			
+			if(i==5) {
+				i++;
+				continue;
+			}
+			System.out.println(i); //1 2 3 4 ....
+			
+			if(i==8)
+				break;
+		
+			i++;
 			
 		}
 
+		
+		
 	}
 
 }
