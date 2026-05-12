@@ -76,6 +76,7 @@ public class Iter03 {
 			}
 			int k=1;
 			while(k<=2) {
+				
 				System.out.println("닦기");
 				k++;				
 			}
