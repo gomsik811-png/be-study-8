@@ -50,9 +50,7 @@ public class Quiz13 {
 				jjak = jjak+i;
 			}else {
 				jjak = jjak-i;
-			}
-			
-				
+			}					
 		}
 		System.out.println(jjak);	
 		
