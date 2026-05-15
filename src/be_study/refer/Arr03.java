@@ -14,7 +14,27 @@ public class Arr03 {
 		// arr[0] <-- int 타입변수
 		
 		System.out.println(arr1[0] == arr1[0]);
-		System.out.println(arr1[2] == arr1[2]);
+		System.out.println(arr1[0] == arr1[2]); // 값 == 값
+		
+		String[] arr2 = {"a", "b", "c"};
+		
+		System.out.println(arr2[0].equals(arr2[2]));
+		
+		String[][] arr3 = { {"A","B","C"},{"D","E","F"} };
+		//				A B C
+		//				D E F
+		
+		System.out.println(arr3.length);
+		System.out.println(arr3[0].length);
+		
+		System.out.println( arr3[0] == arr3[1]);		//주소비교
+		System.out.println( arr3[0][0] == arr3[1][1]);	//주소비교
+		System.out.println(arr3[0][0].equals(arr3[1][1]));
+		
+		int[][] arr4 = {{1,2,3},{4,5,6}};
+		System.out.println(arr4[0] == arr4[1]);			//주소비교
+		System.out.println(arr4[0][0] == arr4[1][1]);	//값 비교
+		System.out.println(arr4[0][0].equals(arr4[1][1]));
 		
 
 	}
