@@ -116,6 +116,7 @@ public class Arr01 {
 		double[] doubleArr = new double[12];
 		String[] stringArr = new String[30];
 		boolean[] booleanArr = new boolean[14];
+		
 		//for(int i=0; i<6; i++)
 		for (int i =0; i<intArr.length; i++) {
 			System.out.print(intArr[i] + " ");

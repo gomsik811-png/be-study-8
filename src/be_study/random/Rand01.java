@@ -1,5 +1,7 @@
 package be_study.random;
 
+import java.util.Random;
+
 public class Rand01 {
 
 	public static void main(String[] args) {
@@ -41,6 +43,13 @@ public class Rand01 {
 		for(int i=1; i<=10; i++) {//30~40
 			System.out.println((int)(Math.random()*21)+30);
 		}
+		
+		Random random = new Random();
+		
+		System.out.println(random.nextInt(10));  // 0 <= value <10
+		System.out.println(random.nextInt(10) +1);  // 1~10
+		System.out.println(random.nextInt(10) + 10); // 10~ 15
+		System.out.println(random.nextInt(10, 16)); // 10~15
 
 	}
 
