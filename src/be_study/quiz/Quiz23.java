@@ -41,9 +41,7 @@ public class Quiz23 {
 			System.out.print("탑승인원 입력:");
 			int people = sc.nextInt();
 			
-			if(people == 0) {
-				break;
-			}
+			
 			int [] floor = new int[people];
 			for(int i = 0; i <people; i++) {
 				System.out.print((i+1)+"번째 사람 내리는 층:");
