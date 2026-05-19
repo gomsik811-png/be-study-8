@@ -34,7 +34,7 @@ public class Arr03 {
 		int[][] arr4 = {{1,2,3},{4,5,6}};
 		System.out.println(arr4[0] == arr4[1]);			//주소비교
 		System.out.println(arr4[0][0] == arr4[1][1]);	//값 비교
-		System.out.println(arr4[0][0].equals(arr4[1][1]));
+//		System.out.println(arr4[0][0].equals(arr4[1][1]));
 		
 
 	}

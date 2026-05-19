@@ -29,7 +29,7 @@ public class Refer02 {
 		LikeIndex li2 = LikeIndex.NORMAL;
 		
 		if(li1 == LikeIndex.VERYGOOD) {
-			System.out.println("아주 좋은 등급이구 {나~");
+			System.out.println("아주 좋은 등급이구 나~");
 		}else if(li1 == LikeIndex.VERYBAD) {
 			System.out.println("아주 안좋은데 대응이 필요하겠네~");
 		} else {
