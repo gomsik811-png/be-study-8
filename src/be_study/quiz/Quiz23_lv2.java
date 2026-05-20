@@ -48,8 +48,7 @@ public class Quiz23_lv2 {
 				
 				floor[i] = (int)(Math.random()*150)+40;
 				floor[i] = sc.nextInt();
-				if(floor[i]> kg) {
-					break;
+				
 			}
 			for (int i = 0; i <= 100; i++) {
 				System.out.println(i + "층입니다.");
