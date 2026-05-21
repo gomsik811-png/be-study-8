@@ -32,7 +32,8 @@ public class IPad {
 			System.out.println(i);
 			
 			if(i==5)
-				break;
+				return;	//현재 수행 메소드 종료
+				//break;
 		}
 		System.out.println("returnCheck 2");
 		for(int i =1; i<=10; i++) {

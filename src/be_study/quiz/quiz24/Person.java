@@ -1,4 +1,4 @@
-package be_study.quiz24;
+package be_study.quiz.quiz24;
 
 public class Person {
 
