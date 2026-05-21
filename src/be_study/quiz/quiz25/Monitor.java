@@ -2,6 +2,9 @@ package be_study.quiz.quiz25;
 
 public class Monitor {
 
+
+	
+
 	int inch;
 	String company;
 	String model;
