@@ -77,7 +77,7 @@ public class Calc {
 	// 리턴 O		매개변수	X
 	
 	//배러리 잔여량 확인 메소드
-	int checkBattrty() {
+	int checkBattery() {
 		//배터리 잔여 퍼센트
 		return 80;
 	}
