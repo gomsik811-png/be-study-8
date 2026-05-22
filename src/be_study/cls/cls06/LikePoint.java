@@ -12,7 +12,7 @@ public class LikePoint {
 	static final int NORMAL = 3;
 	static final int BAD = 2;
 	static final int VERY_BAD = 1;
-					//myPcOptionTest
+					//myPcOption
 	
 	//abc : 변수명
 	//Abc : 클래스명
