@@ -19,7 +19,7 @@ public class LikePointMain {
 		LikePoint lp1 = new LikePoint();
 		System.out.println(lp1.finalX);
 		
-		LikePoint.staticX = 50;
+		LikePoint.staticX = 50;	
 		System.out.println(LikePoint.staticX);
 		
 		//lpl.finalX = 99; 파이널 값은 바꿀 수 없음
@@ -44,6 +44,7 @@ public class LikePointMain {
 		
 		int point = 3;
 		if(point == LikePoint.NORMAL) {
+			
 			System.out.println("보통");
 		}
 		
