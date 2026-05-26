@@ -2,8 +2,6 @@ package be_study.quiz.quiz29;
 
 public class TopScoreStudent {
 
-	private static int i;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -21,16 +19,28 @@ public class TopScoreStudent {
 		// 정수형 배열을 입력받아 가장 큰 값의 인덱스를 반환
 		public static int topIndex(int[] arr) {
 		/* 해당 함수를 완성하세요. */
-			for(int i = 0; i <= arr.length; i++) {
-				for(int j = 0; j > i; j++) {
-					if(arr[i] > arr[j]) {
-						 
-					}
+//			for(int i = 0; i < arr.length; i++) {
+//				for(int j = 0; j < i; j++) {
+//					if(arr[i] > arr[j]) {
+//						
+//						
+//					}else( arr[i] < arr[j] ){
+//						
+//					}
+//				}
+//				
+//			}
+			
+			int max = arr[0];
+			int maxIn = 0;
+			for(int i = 0; i < arr.length; i++) {
+				if(max <arr[i]) {
+					max = arr[i];//최대값
+					maxIn = i;
 				}
-				
 			}
-			return arr[i];
-		
+			
+			return maxIn;
 	}
 
 }
