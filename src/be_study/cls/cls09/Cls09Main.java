@@ -142,7 +142,9 @@ public class Cls09Main {
 	public static Temp09[] methodG() {
 		Temp09[] arr = new Temp09[3];
 		//return null;		//Temp09[] a = null;
-		
+		//arr[0] = new Temp09();
+		//arr[1] = new Temp09();
+		//...
 		
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = new Temp09();
