@@ -27,13 +27,13 @@ public class Computer {
 	int index;	// - 1 2 ostype 에 사용할 인덱스
 	int memory;	// 16 32 16 메인메모리 값
 	
-	String os;
+	//String os;
 	
 	public Computer(int index, int memory) {
 		this.index = index;
 		this.memory = memory;
 		
-		this.os = OS_TYPE[index];
+		//this.os = OS_TYPE[index];
 		
 	}
 	

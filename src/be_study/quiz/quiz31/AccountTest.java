@@ -11,7 +11,7 @@ public class AccountTest {
 		boolean result = true;
 		while (result) {
 		result = a.transfer(b, 3000);
-		System.out.println(a +"님의 잔액"+ b + "님의잔액");
+	
 		}
 
 		// 결과 출력
@@ -35,7 +35,7 @@ public class AccountTest {
 
 		public boolean transfer(Account target, int amount) {
 		if (balance <3000) {
-			System.out.println("잔액이 부족합니다.");
+			
 		return false;
 		}
 
