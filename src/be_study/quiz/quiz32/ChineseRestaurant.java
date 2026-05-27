@@ -32,7 +32,7 @@ public class ChineseRestaurant {
 			}
 			return total;
 		}
-		
+			
 		}
 		class Menu {
 		// 필드

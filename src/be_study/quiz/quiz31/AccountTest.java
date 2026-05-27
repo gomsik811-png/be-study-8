@@ -35,7 +35,6 @@ public class AccountTest {
 
 		public boolean transfer(Account target, int amount) {
 		if (balance <3000) {
-			
 		return false;
 		}
 
