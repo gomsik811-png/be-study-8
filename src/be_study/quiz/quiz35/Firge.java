@@ -9,22 +9,17 @@ public class Firge {
 	boolean temperDown;
 	int door;
 	
-	String Freezer;
-	int FreezerHall;
-	int pirce;
 	
 	
-	public Firge(String brand, int l, boolean powerOn, boolean temperUp, boolean temperDown, int door, String freezer,
-			int freezerHall, int pirce) {	
+	
+	public Firge(String brand, int l, boolean powerOn, boolean temperUp, boolean temperDown, int door) {	
 		this.brand = brand;
 		this.L = L;
 		PowerOn = powerOn;
 		this.temperUp = temperUp;
 		this.temperDown = temperDown;
 		this.door = door;
-		this.Freezer = freezer;
-		this.FreezerHall = freezerHall;
-		this.pirce = pirce;
+
 		
 	}
 	public String getBrand() {
@@ -63,23 +58,7 @@ public class Firge {
 	public void setDoor(int door) {
 		this.door = door;
 	}
-	public String getFreezer() {
-		return Freezer;
-	}
-	public void setFreezer(String freezer) {
-		Freezer = freezer;
-	}
-	public int getFreezerHall() {
-		return FreezerHall;
-	}
-	public void setFreezerHall(int freezerHall) {
-		FreezerHall = freezerHall;
-	}
-	public int getPirce() {
-		return pirce;
-	}
-	public void setPirce(int pirce) {
-		this.pirce = pirce;
+
 	}
 	
 	public void frizeTemp(boolean temperUp, boolean temperDown) {
