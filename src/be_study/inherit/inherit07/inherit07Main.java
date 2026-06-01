@@ -25,7 +25,62 @@ public class inherit07Main {
 		d1.driveBus(b1);
 		d1.driveTaxi(t1);
 		
+		Vehicle v1 = new Vehicle();
+		Vehicle v2 = new Bus();
+		Vehicle v3 = new Taxi();
+		Vehicle v4 = t1;
+		
+		d1.drive(v1);
+		d1.drive(v2);
+		d1.drive(v3);
+		d1.drive(v4);
+		
+		System.out.println("Vehicle 타입 매개변수");
+		System.out.println("Vehicle + 상속받은 자식객체 다 전달 가능");
+		Taxi t2 = new Taxi();
+		Bus b2 = new Bus();
+		d1.driveBus(b2);
+		d1.driveTaxi(t2);
+		
+		d1.drive(b2);
+		d1.drive(t2);
+		
+		Taxi t3 = takeTaxi();
+		Bus b3 = takeBus();
+		
+		Vehicle v11 = takeTaxi();
+		Vehicle v12 = takeBus();
+		
+		Vehicle v13 = takeBus2();
+		//Bus b4 = takeBus2();//본체는 bus 지만 Vehicle 로 만든 객체라서 불가능
+
+		if(v13 instanceof Bus) {
+			Bus b4 = (Bus)takeBus2();
+			b4.run();
+		}
+		
+		
+		
+		Vehicle v = new Bus();
+		Bus b = (Bus)v;
+		
 		
 	}
+	
+	public static Taxi takeTaxi() {// Taxi t = new Taxi();
+		return new Taxi();
+	}
+	
+	public static Bus takeBus() {// Bus b = new Bus();
+		return new Bus();
+	}
+	
+	public static Vehicle takeBus2() {// Vehicle v = new Bus();
+		return new Bus();
+		//return new Tax();
+	}
+	
+	
+	
 
 }

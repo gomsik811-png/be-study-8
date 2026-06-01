@@ -17,6 +17,14 @@ public class Driver {
 	}
 	
 	
+	//Vehicle vehicle =  ?
+	//Vehicle vehicle = new Vehicle() bus() Taxi()
+	public void drive(Vehicle vehicle) {
+		System.out.println("운전자 drive");
+		vehicle.run();
+	}
+	
+	
 	//toString 메소드 선언(생성)
 	//메소드 재정의(오버라이딩)
 
