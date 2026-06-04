@@ -22,7 +22,8 @@ public class HolyKnight implements Tanker, Healer {
 	@Override
 	public void heal() {
 		hp = hp+30;
-		System.out.println("체력 30을 회복시킵니다.");
+		System.out.println("체력 30을 회복시킵"
+				+ "니다.");
 	}
 
 }

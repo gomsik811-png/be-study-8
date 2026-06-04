@@ -13,9 +13,8 @@ public class Food  implements Orderable{
 
 	@Override
 	public int discountedPrice() {
-		name = "족발";
-		price = 19800;
-		return 0;
+		
+		return (int)(price * 0.9);
 	}
 
 }
